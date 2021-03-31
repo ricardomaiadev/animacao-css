@@ -38,7 +38,7 @@ svg path:hover {
     stroke-width:0
 }
 
-#map .mun .label-icon-state{
+#map .mun .label-icon-mun{
     fill:#fff;
     font-family:Arial;
     font-size:11px;
@@ -46,7 +46,7 @@ svg path:hover {
     font-weight:normal
 }
 
-#map .mun .label-state{
+#map .mun .label-mun{
     display:none;
     font-family:Arial;
     font-size:14px;
@@ -54,8 +54,8 @@ svg path:hover {
     font-weight:bold
 }
 
-#map .mun:hover .label-state,
-#map .mun.hover .label-state{
+#map .mun:hover .label-mun,
+#map .mun.hover .label-mun{
     display:block
 }
 
@@ -63,26 +63,26 @@ svg path:hover {
     fill:#2d68b2
 }
 
-#mapa_brasil.hover #map .model-green .mun .icon-state{
+#mapa_brasil.hover #map .model-green .mun .icon-mun{
     fill:#5a95ce
 }
 #map .model-green .mun .shape{
     fill:#ab0
 }
 
-#map .model-green .mun .icon-state{
+#map .model-green .mun .icon-mun{
     fill:#999
 }
-#map .model-green .mun .label-icon-state{
+#map .model-green .mun .label-icon-mun{
     fill:#fff
 }
-#map .model-green .mun .label-state{
+#map .model-green .mun .label-mun{
     fill:#999
 }
 #map .model-green .mun:hover .shape,#map .model-green .mun.hover .shape{
     fill:#b8d21b !important
 }
-#map .model-green .mun:hover .icon-state,#map .model-green .mun.hover .icon-state{
+#map .model-green .mun:hover .icon-mun,#map .model-green .mun.hover .icon-mun{
     fill:#f70 !important
 }
 
