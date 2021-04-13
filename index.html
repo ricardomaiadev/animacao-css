@@ -3,6 +3,10 @@
 
 <head> 
 
+   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+   <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>   
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
 <style 1type="text/css">
    
    #map .mun{
@@ -79,7 +83,7 @@
 
    .modal-dialog {
       width: 500px !important;
-      position: absolute;
+      position: relative;
    }
 
 
@@ -95,7 +99,7 @@
    @media (min-width: 1281px) {
 
       .modal-dialog {
-      margin: 270px 0px 0px 15px !important;
+      margin: 270px 0px 0px 15px;
       position: relative;
       width: 600px !important;
       }
@@ -104,7 +108,7 @@
    @media (min-width: 992px) and (max-width: 1280px) {
 
       .modal-dialog {
-      margin: 270px 0px 0px 15px !important;
+      margin: 270px 0px 0px 15px;
       position: relative;
       width: 475px !important;
       }
@@ -113,7 +117,7 @@
    @media (min-width: 769px) and (max-width: 991px) {
 
       .modal-dialog {
-      margin: 270px 0px 0px 15px !important;
+      margin: 270px 0px 0px 15px;
       position: relative;
       width: 475px !important;
       }
@@ -122,7 +126,7 @@
 
    @media (min-width: 480px) and (max-width: 768px) {
       .modal-dialog {
-      margin: 270px 0px 0px 15px !important;
+      margin: 270px 0px 0px 15px;
       position: relative;
       width: 475px !important;
       }
@@ -131,7 +135,7 @@
    @media (max-width: 479px) {
 
       .modal-dialog {
-      margin: 200px 0px 0px 15px !important;
+      margin: 200px 0px 0px 15px;
       position: relative;
       width: 450px !important;
       }
@@ -140,9 +144,17 @@
    @media (max-width: 360) {
 
       .modal-dialog {
-      margin: 200px 0px 0px 2px !important;
+      margin: 200px 0px 0px 2px;
       position: relative;
       width: 315px !important;
+      }
+   }
+
+   @supports (-moz-appearance:none) {
+      .modal-dialog {
+         width: 500px !important;
+         position: relative;
+         margin: 30px auto;
       }
    }
 
